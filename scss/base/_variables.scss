@@ -5,6 +5,68 @@ $color-oscuro: #1a1a1a;
 $color-gris-claro: #f4f4f4;   
 $color-fondo-suave: #f0f9fe;
 
+
 // fuentes
 $fuente-principal: 'Roboto', sans-serif;
 $fuente-titulos: 'Montserrat', sans-serif;
+
+
+// mixin y extend
+@mixin titulo-academia($color-texto, $tamanio-letra) {
+    font-family: $fuente-titulos; // Usa tu variable de fuente de títulos
+    color: $color-texto;
+    font-size: $tamanio-letra;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+%btn-base {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.section-titulo {
+    @include titulo-academia(#00a8e8, 2.5rem);
+}
+
+
+.btn-academia {
+    @extend %btn-base;
+    background-color: #00a8e8;
+    color: #ffffff;
+    border: none;
+    
+    &:hover {
+        background-color: #0086b8; // Un celeste un toque más oscuro al pasar el mouse
+        color: #ffffff;
+    }
+}
+
+// control de tamaño en las imagenes
+.card-img-top {
+    height: 220px;       
+    object-fit: cover;   
+    width: 100%;         
+}
+
+// Botón Secundario de la Academia (Borde celeste, fondo transparente)
+.btn-academia-outline {
+    @extend %btn-base; 
+    background-color: transparent;
+    color: #00a8e8;
+    border: 2px solid #00a8e8; 
+    
+    // hover
+    &:hover {
+        background-color: #00a8e8; 
+        color: #ffffff;            
+        text-decoration: none;
+    }
+}

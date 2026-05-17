@@ -1,3 +1,49 @@
+.btn-academia-outline, .btn-academia {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.section-titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #00a8e8;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-academia {
+  background-color: #00a8e8;
+  color: #ffffff;
+  border: none;
+}
+.btn-academia:hover {
+  background-color: #0086b8;
+  color: #ffffff;
+}
+
+.card-img-top {
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.btn-academia-outline {
+  background-color: transparent;
+  color: #00a8e8;
+  border: 2px solid #00a8e8;
+}
+.btn-academia-outline:hover {
+  background-color: #00a8e8;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 body {
   background-color: #ffffff !important;
   font-family: "Roboto", sans-serif;

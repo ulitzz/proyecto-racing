@@ -1,0 +1,25 @@
+// estilos footer
+.site-footer {
+    background-color: $color-oscuro !important;
+    border-top: 3px solid $color-principal;
+
+    h4 {
+        font-family: $fuente-titulos;
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        font-family: $fuente-principal;
+    }
+
+    .footer-redes {
+        a {
+            font-family: $fuente-principal;
+            transition: color 0.2s ease;
+
+            &:hover {
+                color: $color-principal !important;
+            }
+        }
+    }
+}

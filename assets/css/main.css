@@ -1,6 +1,7 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #ffffff !important;
   font-family: "Roboto", sans-serif;
+  color: #1a1a1a;
 }
 
 h1 {
@@ -32,6 +33,25 @@ header .navbar .nav-link.active {
   color: #ffffff !important;
   font-weight: 700;
   border-bottom: 2px solid #ffffff;
+}
+
+.site-footer {
+  background-color: #1a1a1a !important;
+  border-top: 3px solid #1faee9;
+}
+.site-footer h4 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+}
+.site-footer p {
+  font-family: "Roboto", sans-serif;
+}
+.site-footer .footer-redes a {
+  font-family: "Roboto", sans-serif;
+  transition: color 0.2s ease;
+}
+.site-footer .footer-redes a:hover {
+  color: #1faee9 !important;
 }
 
 .btn-principal {

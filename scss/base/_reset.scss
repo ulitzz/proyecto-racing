@@ -1,8 +1,14 @@
 body {
-    background-color: $color-gris-claro;
+    background-color: $color-secundario !important;
     font-family: $fuente-principal;
+    color: $color-oscuro;
 }
+
 h1 {
+
     font-family: $fuente-titulos;
+
     color: $color-principal;
+
 }
+

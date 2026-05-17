@@ -1,0 +1,35 @@
+body {
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #1faee9;
+}
+
+header .navbar {
+  background-color: #1faee9 !important;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header .navbar .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+header .navbar .nav-link {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+header .navbar .nav-link:hover {
+  color: #ffffff !important;
+}
+header .navbar .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 700;
+  border-bottom: 2px solid #ffffff;
+}/*# sourceMappingURL=main.css.map */

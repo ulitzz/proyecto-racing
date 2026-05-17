@@ -1,0 +1,32 @@
+// estilos
+header {
+    .navbar {
+        background-color: $color-principal !important;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        .navbar-brand {
+            font-family: $fuente-titulos;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nav-link {
+            font-family: $fuente-principal;
+            color: rgba($color-secundario, 0.8) !important;
+            font-weight: 400;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $color-secundario !important;
+            }
+
+            &.active {
+                color: $color-secundario !important;
+                font-weight: 700;
+                border-bottom: 2px solid $color-secundario;
+            }
+        }
+    }
+}

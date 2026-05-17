@@ -1,0 +1,20 @@
+// buttons
+.btn-principal {
+    background-color: $color-principal;
+    color: $color-secundario;
+    font-family: $fuente-titulos;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.75rem 2rem;
+    border: 2px solid $color-principal;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+    
+    &:hover {
+        background-color: transparent;
+        color: $color-secundario;
+        border-color: $color-secundario;
+        transform: scale(1.05); // Lo agranda un 5% sutilmente (efecto avanzado)
+    }
+}

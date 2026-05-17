@@ -32,4 +32,35 @@ header .navbar .nav-link.active {
   color: #ffffff !important;
   font-weight: 700;
   border-bottom: 2px solid #ffffff;
+}
+
+.btn-principal {
+  background-color: #1faee9;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.75rem 2rem;
+  border: 2px solid #1faee9;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-principal:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.hero-section {
+  background: linear-gradient(rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.6)), url("../../assets/img/hero-bg.jpg") no-repeat center center/cover;
+  min-height: 80vh;
+}
+.hero-section h1 {
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-section p {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=main.css.map */
